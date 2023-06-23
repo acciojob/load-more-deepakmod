@@ -1,4 +1,4 @@
-
+import LoadMore from "./LoadMore";
 import React from "react";
 import './../styles/App.css';
 
@@ -39,6 +39,7 @@ const App = () => {
   return (
     <div>
         {/* Do not remove the main div */}
+        <LoadMore items={items} />
     </div>
   )
 }
